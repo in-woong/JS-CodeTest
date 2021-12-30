@@ -3,10 +3,24 @@
 
 const fs = require('fs');
 
-const input = fs.readFileSync('./data').toString().split('\n');
-const coinNum= input.shift().split(" ")
+const strToNumArr = (str) =>
+  str.split(' ').map((numString) => Number(numString));
 
-const N = parseInt(coinNum[0]);
-const K = parseInt(coinNum[1]);
+const input = fs.readFileSync('./data').toString().trim().split('\n');
+const [N, K] = strToNumArr(input.shift());
 
-console.log(N,K)
+input.reverse();
+
+function solution(n, k, list) {
+  let count = 0;
+  for (let i of list) {
+    i = parseInt(i);
+    if (k >= i) {
+      count += parseInt(Math.floor(k / i));
+      k = k % i;
+    }
+  }
+  console.log(count);
+}
+
+solution(N, K, input);
