@@ -49,6 +49,7 @@ function solution(priorities, location) {
   }
   console.log(count);
   return count;
+
 }
 
 solution([1,1,9,1,1,1], 0)
