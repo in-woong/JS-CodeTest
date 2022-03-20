@@ -2,6 +2,16 @@
 
 # Study Code Test with JavaScript
 
+<<<<<<< HEAD
+1. 단계별 풀이
+   > step1 입출력과 사칙연산
+   > step2 if문
+   > step3 for문
+   > step4 while 문
+
+2. 그리디 알고리즘
+- 문제풀이를 위한 최소한의 아이디어를 떠올리고 이것이 정당한지 검토할 수 있어야 한다.
+=======
 ## 공부 순서
 1. 단계별 풀이를 통한 Nods.js를 통한 CodeTest 기본 준비
 2. 알고리즘 개념 복습 및 알고리즘 별 풀이를 통한 CodeTest 유형별 연습
@@ -34,3 +44,4 @@ N*N의 게임판을 만드는 과정
 
 sort(a,b=> a-b)와 같이 해주어야한다. python과 다름
 
+>>>>>>> feature/woong
