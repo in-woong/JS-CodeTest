@@ -33,11 +33,9 @@ Stack.prototype.indexOf = function (element, position = 0) {
 
   for (let i = position; i < element; i++) {
     if (element == this.array[i]) return i;
- 
   }
   return -1;
-}
-  
+};
 
 Stack.prototype.includes = function (element, position = 0) {
   return this.array.includes(element, position);
