@@ -14,19 +14,24 @@ function solution(A) {
     }
     answerA[A[i][0]].push(A[i][1]);
   }
+
   const arrayA = Object.entries(answerA);
-  for (let i = 0; i < Object.entries(answerA).length; i++) {
-    let array = Object.entries(answerA)[i][1];
-    let key = Object.entries(answerA)[i][0];
-    console.log(array.length, key);
+
+  for (let i = 0; i < arrayA.length; i++) {
+    let array = arrayA[i][1];
+    let key = arrayA[i][0];
     for (let j = 0; j < array.length; j++) {
-      if (answerA[array[i]] === undefined) break;
-      if (answerA[array[i]].includes(key)) {
+      console.log(answerA[array[j]], array[j], key);
+      if (answerA[array[j]] === undefined) break;
+      console.log(answerA[array[j]].includes(key));
+      if (answerA[array[j]].includes(key)) {
         count++;
+        console.log(key, count);
       }
     }
   }
-  return count % 2;
+
+  return count / 2;
   //   for (let i = 0; i < A.length; i++) {
   //     array[A[i][0]].push(A[i][1]);
   //   }
@@ -51,8 +56,7 @@ console.log(
   solution([
     ['철수', '영희'],
     ['영희', '진수'],
-    ['진수', '동수'],
+    ['진수', '영희'],
     ['진수', '진호'],
-    ['영희', '철수'],
   ])
 );

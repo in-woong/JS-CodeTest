@@ -1,7 +1,7 @@
 function solution(A, B) {
   let resultA = [];
   let resultB = [];
-  for (let i = 2; i < Number(A); i++) {
+  for (let i = 2; i <= Number(A); i++) {
     if (isPrime(i) && Number(A) % i == 0) {
       resultA.push(i);
     }
@@ -9,7 +9,7 @@ function solution(A, B) {
   if (Number(A) % 2 == 0) {
     resultA.push(2);
   }
-  for (let i = 2; i < Number(B); i++) {
+  for (let i = 2; i <= Number(B); i++) {
     if (isPrime(i) && Number(B) % i == 0) {
       resultB.push(i);
     }
@@ -44,4 +44,4 @@ const isPrime = (n) => {
   return true;
 };
 
-console.log(solution(256, 2392));
+console.log(solution(7, 49));
