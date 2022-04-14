@@ -1,4 +1,5 @@
 function confirm(y, x, A) {
+  if (A[y][x] == 1) return 0;
   const N = A.length;
   const d = [
     [-1, 0],
@@ -38,10 +39,10 @@ function solution(A) {
 }
 
 const input = [
-  [0, 0, 0, 0],
-  [0, 0, 0, 0],
-  [0, 0, 0, 0],
-  [0, 0, 0, 0],
+  [0, 0, 0, 1],
+  [0, 1, 1, 1],
+  [0, 1, 1, 1],
+  [0, 1, 1, 1],
 ];
 
 console.log(`${1} ${solution(input)}`);
