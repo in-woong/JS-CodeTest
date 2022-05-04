@@ -17,7 +17,6 @@ function solution(Friends, Taste) {
 
       const values = [...friends.values()];
       const result = values.filter((v) => v !== 0);
-      console.log(result, count, example[i]);
       if (result.length == Friends.length) {
         console.log('FIT');
         return count;
