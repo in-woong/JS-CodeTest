@@ -1,42 +1,57 @@
 function solution(begin, target, words) {
-  words.unshift(begin);
-  const visited = Array.from({ length: words.length }, () => 0);
-  const stack = [];
-  stack.push(0);
-  visited[0] = 1;
+  let answers = [];
+  //begin이 words에 있는지 확인 있으면 진행
+  //word를 begin으로 선정 다음 바뀔 수 있는 것으로 바꿈
+  //바뀐 word
+  const queue = [begin];
+  const visitArr = new Array(words.length).fill(false);
 
-  while (stack.length !== 0) {
-    const i = stack.pop();
-    const element = words[i];
-    visited[i] = 1;
-    console.log(`${element}-`, visited);
+  let count = 0;
+  let shiftedWord = '';
+  let queueLeng = queue.length;
 
-    for (let n = 0; n < words.length; n++) {
-      console.log(element, words[n], countSame(element, words[n]));
-      if (
-        countSame(element, words[n]) == element.length - 1 &&
-        visited[n] == 0
-      ) {
-        stack.push(n);
+  while (queue.length > 0) {
+    shiftedWord = queue.shift();
+    console.log(shiftedWord, count, queue);
+    queueLeng--;
 
-        continue;
+    for (let i in words) {
+      if (check(shiftedWord, words[i])) {
+        if (visitArr[i] == true) continue;
+        if (words[i] == target) return count + 1;
+        visitArr[i] = true;
+
+        queue.push(words[i]);
       }
-      console.log(stack);
+    }
+
+    if (queueLeng == 0) {
+      count++;
+      queueLeng = queue.length;
     }
   }
+  return 0;
 }
 
-function countSame(word1, word2) {
-  let count = 0;
-  for (let i = 0; i < word1.length; i++) {
-    if (word1[i] == word2[i]) count++;
+function check(standard, word) {
+  let diffCtr = 0;
+
+  if (standard.length != word.length) {
+    return false;
   }
-  return count;
+
+  for (let i = 0; i < standard.length; i++) {
+    if (standard.charAt(i) != word.charAt(i)) diffCtr++;
+    if (diffCtr > 1) return false;
+  }
+  return true;
 }
 
 const input = [
-  ['hit', 'cog', ['hot', 'dot', 'dog', 'lot', 'log', 'cog']],
+  ['hit', 'cog', ['hot', 'lot', 'dog', 'dot', 'log', 'cog']],
   ['hit', 'cog', ['hot', 'dot', 'dog', 'lot', 'log']],
+  ['aab', 'aba', ['abb', 'aba']],
+  ['hit', 'hhh', ['hhh', 'hht']],
 ];
 
 for (let i = 0; i < input.length; i++) {
