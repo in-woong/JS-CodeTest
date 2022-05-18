@@ -14,7 +14,7 @@ function solution(A) {
   queue.push([0, 0]);
   while (queue.length != 0) {
     const [y, x] = queue.pop();
-    console.log(y, x);
+    
     if (y == M - 1 && x == N - 1) return 1;
     visit[y][x] = true;
 
