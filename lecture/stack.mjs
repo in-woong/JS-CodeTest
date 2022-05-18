@@ -40,3 +40,5 @@ Stack.prototype.indexOf = function (element, position = 0) {
 Stack.prototype.includes = function (element, position = 0) {
   return this.array.includes(element, position);
 };
+
+export {Stack}

@@ -1,4 +1,4 @@
-//array의 shift를 이용해도 que를 이용할 수 없다. 
+//array의 shift를 이용해도 que를 이용할 수 없다.
 
 class Queue {
   constructor() {
@@ -16,7 +16,9 @@ class Queue {
     this.front += 1;
     return value;
   }
-
+  isEmpty() {
+    return this.size() === 0;
+  }
   peek() {
     return this.queue[this.front];
   }
@@ -36,3 +38,5 @@ console.log(queue.size());
 console.log(queue.peek());
 console.log(queue.dequeue());
 console.log(queue.dequeue());
+
+export { Queue };

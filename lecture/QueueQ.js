@@ -31,7 +31,7 @@ function solution(priorities, location) {
     queue.enqueue([priorities[i], i]);
   }
   priorities.sort((a, b) => b - a);
-  console.log(queue.peek())
+  console.log(queue)
 
   let count = 0;
   while (queue.size()>0) {
