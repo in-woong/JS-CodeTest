@@ -1,69 +1,41 @@
-function Queue() {
-  this.queue = [];
-  this.rear = 0;
-  this.front = 0;
-}
-
-Queue.prototype.enqueue = function (element) {
-  this.queue[this.rear++] = element;
-  return element;
-};
-
-Queue.prototype.dequeue = function () {
-  const element = this.queue[this.front];
-  delete this.queue[this.front++];
-  return element;
-};
-
-Queue.prototype.size = function () {
-  return this.rear - this.front;
-};
-
-Queue.prototype.isEmpty = function () {
-  return this.size() == 0;
-};
-
-
+const NotVisited = -1;
 function solution(n, edge) {
-  let count = 0;
-  let visited = Array.from({ length: n + 1 }, () => false);
-  let length = Array.from({ length: n + 1 }, () => Number.POSITIVE_INFINITY);
-  const queue = new Queue();
-  queue.enqueue('1');
-  let stackLength = queue.size();
+  let answer = 0;
+  let start = 1;
+  let process = [];
+  let adjList = {};
 
-  while (!queue.isEmpty()) {
-    const element = queue.dequeue();
-    visited[element] = true;
-    stackLength--;
-    if (length[element] > count) {
-      length[element] = count;
-    }
-    for (let i = 0; i < edge.length; i++) {
-      if (edge[i][0] == element) {
-        if (visited[edge[i][1]] == true) continue;
+  for (let [v1, v2] of edge) {
+    adjList[v1] ? adjList[v1].push(v2) : (adjList[v1] = [v2]);
+    adjList[v2] ? adjList[v2].push(v1) : (adjList[v2] = [v1]);
+  }
+  let distance = [0];
+  for (let i = 0; i < n; i++) {
+    distance.push(NotVisited);
+  }
 
-        queue.enqueue(edge[i][1]);
-      } else if (edge[i][1] == element) {
-        if (visited[edge[i][0]] == true) continue;
+  distance[start] = 0;
+  process.push(start);
 
-        queue.enqueue(edge[i][0]);
+  while (process.length) {
+    let vertex = process.shift();
+    let adj = adjList[vertex];
+
+    for (let i of adj) {
+      if (distance[i] === NotVisited) {
+        distance[i] = distance[vertex] + 1;
+        process.push(i);
       }
     }
-
-    if (stackLength == 0) {
-      stackLength = queue.size();
-      count++;
-    }
+    console.log(distance);
   }
-  const maxCount = Math.max(...length.slice(1));
-  let result = 0;
-  length.forEach((e) => {
-    if (e == maxCount) {
-      result++;
+  let fardistance = Math.max(...distance);
+  distance.forEach((dist) => {
+    if (dist === fardistance) {
+      answer++;
     }
   });
-  return result;
+  return answer;
 }
 
 const input = [
