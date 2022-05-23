@@ -1,29 +1,18 @@
 function solution(routes) {
-  //첫번째 부터 곂치는 것이 있으면 뺀다. 빼고 count++
-  //두번째
-  routes.sort((a, b) => a[0] - b[0]);
-  let count = 0;
-  while (routes.length !== 0) {
-    let hasRoute = false;
-    const element = routes.shift();
-    let removeIndex = [];
-
-    for (let i = 0; i < routes.length; i++) {
-      if (element[0] <= routes[i][0] && routes[i][0] <= element[1]) {
-        hasRoute = true;
-        removeIndex.push(i);
-      }
-    }
-
-    if (hasRoute) {
-      routes = routes.filter((route, idx) => !removeIndex.includes(idx));
-    }
-
-    count++;
+  //먼저 빠져나가는 순서대로 정렬
+  let result = 0;
+  routes.sort((a, b) => b[1] - a[1]);
+  while (routes.length) {
+    let route = routes.pop();
+    const camera = route[1];
+    result++;
+    routes = routes.filter(
+      (route) => !(route[0] <= camera && camera <= route[1])
+    );
   }
-  return count;
-}
 
+  return result;
+}
 const input = [
   [
     [-2, -1],
