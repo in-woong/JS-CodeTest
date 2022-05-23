@@ -15,15 +15,15 @@
 
 - 실시 결과
 
-| 구분 | 내용 | 코드                                                                                          |
-| ---- | ---- | --------------------------------------------------------------------------------------------- |
-| 3.16 | 5.4  | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/zerobase/text/pb3.16/)|
-| 3.23 | 9    | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/zerobase/text/pb3.23/) |
-| 3.30 | 9.4  | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/zerobase/text/pb3.30/) |
-| 4.6  | 6.2  | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/zerobase/text/pb4.6/)  |
-| 4.13 | 9.2  | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/zerobase/text/pb4.13/) |
-| 4.20 | -    | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/zerobase/text/pb4.20/) |
-| 4.27 | -    | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/zerobase/text/pb4.27/) |
-| 5.4  | 9.4  | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/zerobase/text/pb5.4/)  |
-| 5.11 | 9.8  | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/zerobase/text/pb5.11/) |
-| 5.18 | 10   | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/zerobase/text/pb5.18/) |
+| 구분 | 내용 | 코드                                                                                                  |
+| ---- | ---- | ----------------------------------------------------------------------------------------------------- |
+| 3.16 | 5.4  | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/tree/main/zerobase/test/pb3.16/) |
+| 3.23 | 9    | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/tree/main/zerobase/test/pb3.23/) |
+| 3.30 | 9.4  | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/tree/main/zerobase/test/pb3.30/) |
+| 4.6  | 6.2  | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/tree/main/zerobase/test/pb4.6/)  |
+| 4.13 | 9.2  | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/tree/main/zerobase/test/pb4.13/) |
+| 4.20 | -    | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/tree/main/zerobase/test/pb4.20/) |
+| 4.27 | -    | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/tree/main/zerobase/test/pb4.27/) |
+| 5.4  | 9.4  | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/tree/main/zerobase/test/pb5.4/)  |
+| 5.11 | 9.8  | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/tree/main/zerobase/test/pb5.11/) |
+| 5.18 | 10   | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/tree/main/zerobase/test/pb5.18/) |
