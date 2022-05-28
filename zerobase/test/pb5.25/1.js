@@ -10,9 +10,7 @@ function solution(city) {
   queue.push([0, 0]);
 }
 
-function shortWay(y, x, arr) {
-    
-}
+function shortWay(y, x, arr) {}
 
 const input = [[[1, 0, 1][(1, 1, 1)], [1, 1, 1]]];
 
