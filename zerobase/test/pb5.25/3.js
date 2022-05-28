@@ -8,7 +8,7 @@ function solution(n) {
     }
     console.log(n);
   }
-if(n.length==0)return 0;
+  if (n.length == 0) return 0;
   return n.pop();
 }
 
