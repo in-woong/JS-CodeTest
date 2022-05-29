@@ -1,4 +1,7 @@
-function solution(useageArr, fee) {}
+function solution(useageArr, fee) {
+    let sum = useageArr.reduce((acc,cur)=>acc+cur,0);
+    return sum *fee;
+}
 
 const input = [[1, 3, 5], 5];
 
