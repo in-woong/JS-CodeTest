@@ -27,3 +27,4 @@
 | 5.4  | 9.4  | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/tree/main/zerobase/test/pb5.4/)  |
 | 5.11 | 9.8  | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/tree/main/zerobase/test/pb5.11/) |
 | 5.18 | 10   | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/tree/main/zerobase/test/pb5.18/) |
+| 5.18 | 9.0   | [click](https://github.com/in-woong/JS-CodeTest/in-woong/JS-CodeTest/tree/main/zerobase/test/pb5.25/) |
