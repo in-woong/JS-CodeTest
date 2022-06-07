@@ -10,3 +10,5 @@
 - [6.5 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.5)
 
 - [6.6 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.6)
+
+- [6.7 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.7)
