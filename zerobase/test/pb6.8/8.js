@@ -7,6 +7,7 @@ function solution(N, K) {
 
   for (let i = 0; i < array.length; i++) {
     const element = array[i];
+
     let idx = element + K > N ? element - K : element + K;
 
     if (idx <= 0) idx = N + idx;
@@ -15,6 +16,8 @@ function solution(N, K) {
       answer[idx - 1] = element;
     } else {
       return [-1];
+
+
     }
   }
   return answer;
@@ -23,11 +26,13 @@ function solution(N, K) {
 const input = [
   [3, 2],
   [4, 2],
+
   [10, 5],
   [10, 0],
   [7, 5],
   [94, 47],
   [233, 118],
+
 ];
 
 for (let i = 0; i < input.length; i++) {
