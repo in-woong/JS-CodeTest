@@ -38,6 +38,7 @@ function solution(nums) {
     let right = sortedArr.length - 1;
     while (left < right) {
       const sum = sortedArr[i] + sortedArr[left] + sortedArr[right];
+      console.log(i, left, right, sum, sortedArr);
       if (sum < 0) {
         left++;
       } else if (sum > 0) {
@@ -54,8 +55,8 @@ function solution(nums) {
         right--;
       }
     }
-  }
-  return resultArr;
+}
+return resultArr;
 }
 const input = [[-1, 0, 1, 2, -1, -4], [], [0]];
 
