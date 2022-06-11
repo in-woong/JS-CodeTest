@@ -15,4 +15,4 @@
 
 - [6.9 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.9)
 
-- [6.9 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.10)
+- [6.10 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.10)
