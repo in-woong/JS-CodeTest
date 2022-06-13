@@ -19,12 +19,13 @@
 
 - [6.10 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.10)
 
-  - [3Sum 포스팅]()
+  - [3Sum 포스팅](https://velog.io/@inwoong100/leetcode15.3Sum)
 
 - [6.11 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.11)
 
-  - [AddBinary 포스팅]()
+  - [AddBinary 포스팅](https://velog.io/@inwoong100/leetcode67.Add-Binary)
 
 - [6.12 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.12)
 
 - [6.13 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.13)
+  - [BinaryTree 포스팅]()
