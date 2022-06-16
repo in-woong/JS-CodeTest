@@ -53,6 +53,19 @@ function makeGroup(language) {
   return group;
 }
 const input = [
+  [4, [[0, 2]]],
+  [
+    10,
+    [
+      [0, 2],
+      [1, 8],
+      [1, 4],
+      [2, 8],
+      [2, 6],
+      [3, 5],
+      [6, 9],
+    ],
+  ],
   [
     5,
     [
