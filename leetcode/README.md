@@ -29,7 +29,7 @@
 
 - [6.13 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.13)
 
-  - [BinaryTree 포스팅]()
+  - [BinaryTree 포스팅](https://velog.io/@inwoong100/leetcode94.-Binary-Tree-Inorder-Traversal)
 
 - [6.14 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.14)
 
@@ -39,6 +39,8 @@
 
 - [6.17 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.17)
 
-  - [TotalHammming]()
+  - [TotalHammming](https://velog.io/@inwoong100/leetcode-477.-Total-Hamming-Distance)
 
 - [6.18 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.18)
+
+- [6.19 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.19)
