@@ -32,3 +32,11 @@
   - [BinaryTree 포스팅]()
 
 - [6.14 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.14)
+
+- [6.15 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.15)
+
+- [6.16 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.16)
+
+- [6.17 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.17)
+
+- [6.18 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.18)
