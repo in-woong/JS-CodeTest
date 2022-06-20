@@ -44,3 +44,7 @@
 - [6.18 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.18)
 
 - [6.19 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.19)
+
+  - [Populating Next Right Pointer Each Node](https://velog.io/@inwoong100/leetcode-477.-Total-Hamming-Distance)
+
+- [6.20 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.20)
