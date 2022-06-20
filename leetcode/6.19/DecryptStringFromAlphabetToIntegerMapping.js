@@ -22,7 +22,7 @@ function solution(s) {
   for (let i = 0; i < result.length; i++) {
     answer.push(String.fromCharCode(Number(result[i]) + 64).toLowerCase());
   }
-  return answer;
+  return answer.join();
 }
 
 const input = ['10#11#12', '1326#'];
