@@ -50,3 +50,7 @@
 - [6.20 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.20)
 
   - [Smallest Subtree with all the Deepest Nodes](https://velog.io/@inwoong100/leetcode-477.-Total-Hamming-Distance)
+
+- [6.21풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.21)
+
+  - [Largest Palindromic Subsequence](https://)
