@@ -9,11 +9,17 @@ function solution(param0) {
     }
     for (let j = i + 1; j < param0.length; j++) {
       if (includeHuman(param0[i], param0[j])) {
-        array[j] = array[i];
+        if (array[j] !== -1 && array[i] == -1) {
+          array[i] = array[j];
+        } else if (array[j] == -1 && array[i] !== -1) {
+          array[j] = array[i];
+        } else {
+          array[i] = array[j];
+        }
       }
     }
   }
-  console.log(array);
+
   const set = new Set(array);
   return set.size;
 }
@@ -30,9 +36,26 @@ function includeHuman(a, b) {
 }
 
 const input = [
-  ['a', 'ac', 'b', 'cb'],
-  ['e', 'f', 'g', 'h'],
-  ['e', 'ef', 'f', 'ed', 'fg'],
+  ['yyyyyyyyyy', 'xxxxx', 'zz', 'zzzzzz', 'zzzzz'],
+  ['ac', 'bc', 'ca'],
+  [
+    'uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu',
+    'xdxxdxxddxdxdxxdddxdddxxxddx',
+    'pyfpffffyyfppyfffpypp',
+    'zzzzzzzzzzzzzzz',
+    'zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz',
+  ],
+  [
+    'fhnfkfkfk',
+    'fhnfkfkfk',
+    'fhnfkfkfk',
+    'fhnfkfkfk',
+    'fhnfkfkfk',
+    'fhnfkfkfk',
+    'fhnfkfkfk',
+    'fhnfkfkfk',
+  ],
+  ['aaa', 'bbb', 'ccc', 'ddd', 'ab'],
 ];
 
 for (let i = 0; i < input.length; i++) {

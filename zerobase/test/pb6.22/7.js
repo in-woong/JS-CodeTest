@@ -14,7 +14,7 @@ function solution(stock) {
 
   const newArray = [
     ...stock.slice(0, idx[0]),
-    ...stock.slice(idx[0], idx[idx.length - 1] + 1).sort((a, b) => a - b),
+    ...stock.slice(idx[0], idx[idx.length - 1] + 1).reverse(),
     ...stock.slice(idx[idx.length - 1] + 1),
   ];
   console.log(newArray);
@@ -27,6 +27,7 @@ function solution(stock) {
 }
 
 const input = [
+  [3, 1, 2],
   [4, 2],
   [1, 2, 5, 8, 9, 3, 4],
   [1, 2, 8, 4, 5, 9, 3],

@@ -10,9 +10,10 @@ function solution(N, X, arrived) {
   for (let i = 0; i < arrived.length; i++) {
     if (subTime(nSplit, arrived[i]) > 0) {
       count++;
-      console.log(subTime(nSplit, arrived[i]));
+
       if (count >= X) {
         const lateTime = Number(subTime(nSplit, arrived[i]));
+
         answer = late < lateTime ? arrived[i] : answer;
         late = late < lateTime ? lateTime : late;
       }
@@ -32,8 +33,9 @@ function subTime(nSplit, arrived) {
 const input = [
   ['13:05', 3, ['13:15', '13:05', '13:20']],
   ['09:00', 3, ['09:03', '09:04', '09:05']],
-  ['12:20', 2, ['13:35', '13:30', '14:20', '12:10', '12:25']],
+  ['12:20', 2, ['13:35', '13:30', '14:20', '12:25', '12:10']],
   ['00:00', 1, ['03:03', '05:05']],
+  ['09:05', 2, ['09:00', '08:15', '13:20', '13:15']],
 ];
 
 for (let i = 0; i < input.length; i++) {
