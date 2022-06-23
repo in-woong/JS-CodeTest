@@ -54,3 +54,5 @@
 - [6.21풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.21)
 
   - [Largest Palindromic Subsequence](https://)
+
+- [6.23풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.23)
