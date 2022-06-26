@@ -45,16 +45,20 @@
 
 - [6.19 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.19)
 
-  - [Populating Next Right Pointer Each Node](https://velog.io/@inwoong100/leetcode-477.-Total-Hamming-Distance)
+  - [Populating Next Right Pointer Each Node](https://velog.io/@inwoong100/leetcode116.Populating-Next-Right-Pointer-Each-Node)
 
 - [6.20 풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.20)
 
-  - [Smallest Subtree with all the Deepest Nodes](https://velog.io/@inwoong100/leetcode-477.-Total-Hamming-Distance)
+  - [Smallest Subtree with all the Deepest Nodes](https://velog.io/@inwoong100/leetcode865.Smallest-Subtree-with-all-the-Deepest-Nodes)
 
 - [6.21풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.21)
 
-  - [Largest Palindromic Subsequence](https://)
+  - [Largest Palindromic Subsequence](https://velog.io/@inwoong100/leetcode516.Longest-Palindromic-Subsequence)
 
 - [6.23풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.23)
 
 - [6.24풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.24)
+
+  - [Flatten Binary Tree To Linked List](https://)
+
+- [6.25풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.25)
