@@ -59,6 +59,8 @@
 
 - [6.24풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.24)
 
-  - [Flatten Binary Tree To Linked List](https://)
+  - [Flatten Binary Tree To Linked List](https://velog.io/@inwoong100/leetcode114.Flatten-Binary-Tree-To-Linked-List)
 
 - [6.25풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.25)
+
+- [6.27풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.27)
