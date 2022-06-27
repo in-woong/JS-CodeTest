@@ -1,6 +1,5 @@
 function solution(nums) {
   for (let i = 0; i < nums.length; i++) {
-    
     if (sum(0, i, nums) === sum(i + 1, nums.length, nums)) {
       return i;
     }
