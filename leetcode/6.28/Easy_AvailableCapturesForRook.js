@@ -21,6 +21,7 @@ function solution(board) {
       break;
     }
   }
+  
   let rightX = x;
   while (rightX < board[0].length - 1) {
     rightX++;
