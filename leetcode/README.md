@@ -64,3 +64,5 @@
 - [6.25풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.25)
 
 - [6.27풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.27)
+
+- [6.28풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/6.28)
