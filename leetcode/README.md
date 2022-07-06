@@ -74,3 +74,5 @@
   - [MaximalSquare]()
 
 - [7.5풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/7.5)
+
+- [7.6풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/7.6)
