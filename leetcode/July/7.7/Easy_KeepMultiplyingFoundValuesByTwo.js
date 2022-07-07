@@ -1,7 +1,8 @@
-function solution(nums,original) {
-    while(original.includes(nums)){
-        original=2*original
-    }
+function solution(nums, original) {
+  while (original.includes(nums)) {
+    original = 2 * original;
+  }
+  return original
 }
 
 const input = [
