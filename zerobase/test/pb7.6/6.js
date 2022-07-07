@@ -43,10 +43,27 @@ function solution(stats, k) {
     if (answer.length > 1) {
       sum = answer[0] + answer[answer.length - 1];
     } else {
-      sum = answer[0];
+      sum = answer[0] * 2;
     }
     max = max < sum ? sum : max;
   }
   if (count == 0) return -1;
   return max;
+}
+
+const input = [
+  [[6, 3, 5, 2, 1], 1],
+  [[4, 3, 4, 3, 3, 4], 4],
+  [[1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4], 2],
+  [
+    [
+      15, 23, 28, 22, 41, 14, 13, 17, 44, 19, 26, 20, 21, 16, 24, 25, 12, 18,
+      27,
+    ],
+    1,
+  ],
+  [[34], 1],
+];
+for (let i = 0; i < input.length; i++) {
+  console.log(`${i + 1}:${solution(input[i][0], input[i][1])}`);
 }
