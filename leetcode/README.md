@@ -80,3 +80,7 @@
 - [7.7풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/7.7)
 
   - [Minimum Moves To Make Array Complementeary]()
+
+- [7.8풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/7.8)
+
+  - [Range Sum Query 2D-Immutable]()
