@@ -71,7 +71,7 @@
 
 - [7.4풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.4)
 
-  - [MaximalSquare]()
+  - [MaximalSquare](https://velog.io/@inwoong100/leetcode221.Maximal-Square)
 
 - [7.5풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.5)
 
@@ -79,11 +79,11 @@
 
 - [7.7풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.7)
 
-  - [Minimum Moves To Make Array Complementeary]()
+  - [Minimum Moves To Make Array Complementeary](https://velog.io/@inwoong100/leetcode1674.Minimum-Moves-to-Make-Array-Complementary)
 
 - [7.8풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.8)
 
-  - [Range Sum Query 2D-Immutable]()
+  - [Range Sum Query 2D-Immutable](https://velog.io/@inwoong100/leetcode304.-Range-Sum-Query-2D-Immutable)
 
 - [7.9풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.9)
 
