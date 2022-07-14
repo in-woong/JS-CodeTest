@@ -114,11 +114,14 @@ function solution(s, k) {
 }
 
 const input = [
-  ['dbcadab', 16],
-  ['abcd', 5],
-  ['edcba', 8],
-  ['gfedcba', 22],
-  ['jcdkadu', 34],
+  ['ccaccaca', 20],
+  ['zdwvnglnyoyfzummnggzbczgorbhpsdysnvwqel', 1958],
+  ['i', 17],
+  ['aysjsi', 1170],
+  [
+    'xliaadfpxuxpswnitnxcsdhcztmtytshblqwgakkjuxqrausepxsqchwtbypbemtameugpgkjallafhsnufttbosjugqamtzqaznnkgxmcyyygmfhbulkjcwkbstrwhlaucqehkfqtabbkxisaoyloihqkqwciuazzfbwrlmkjmzgwmecvnzyvoxhnpfvifzhvkktmyvvadtiwxdwqsynpaacrmjeuqnicbdrzhbnlbfbcojbkbxewkrxmtkvqdqbhoitnqurnklltxqtnoeolepxlqfxiqqvdbjzqwvlknwdqfxfuxlskkmnjxyahxjmqlntywhtnohsfwxausicbpkmwujunmmaqqntakgachuwcelclpefxdslulmssugiqmnlquazlqnnaotjpnrpzfhpqehrxbzlfazpslzbbvcqsjrzobzgxplnpwwvzajrxtoycbmfvqdyizcllpxfzvupdagjkuduidbwenuaii',
+    2509,
+  ],
 ];
 
 for (let i = 0; i < input.length; i++) {
