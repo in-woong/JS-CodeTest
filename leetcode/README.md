@@ -90,3 +90,12 @@
 - [7.10풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.10)
 
 - [7.11풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.11)
+
+
+- [7.12풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.12)
+
+
+- [7.13풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.13)
+
+
+- [7.14풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.14)
