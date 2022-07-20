@@ -24,6 +24,7 @@ function solution(n, language) {
     if (p1 !== p2) {
       ranks[p2] = p1;
     }
+    console.log(ranks);
   }
 
   function find(node) {
