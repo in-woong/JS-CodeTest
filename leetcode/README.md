@@ -102,4 +102,9 @@
 - [7.17풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.17)
 
 - [7.18풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.18)
+
   - [ReplaceTheSubstringForBalancedString]()
+
+- [7.21풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.21)
+
+  - [Subarray sums Divisible By K]()
