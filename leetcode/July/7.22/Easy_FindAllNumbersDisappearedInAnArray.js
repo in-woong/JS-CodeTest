@@ -10,3 +10,4 @@ var findDisappearedNumbers = function (nums) {
   }
   return answer;
 };
+"Ball".toLowerCase
