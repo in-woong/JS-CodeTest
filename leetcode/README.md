@@ -103,8 +103,14 @@
 
 - [7.18풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.18)
 
-  - [ReplaceTheSubstringForBalancedString]()
+  - [ReplaceTheSubstringForBalancedString](https://velog.io/@inwoong100/leetcode1234.-Replace-the-Substring-for-Balanced-String)
 
 - [7.21풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.21)
 
-  - [Subarray sums Divisible By K]()
+  - [Subarray sums Divisible By K](https://velog.io/@inwoong100/leetcode974.Subarray-Sums-Divisible-by-K)
+
+- [7.22풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.22)
+
+  - [getAncestor](https://velog.io/@inwoong100/leetcode-2192.-All-Ancestors-of-a-Node-in-a-Directed-Acyclic-Graph)
+
+- [7.23풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.23)

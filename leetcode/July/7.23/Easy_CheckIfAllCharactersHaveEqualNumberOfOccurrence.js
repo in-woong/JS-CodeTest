@@ -19,3 +19,4 @@ var areOccurrencesEqual = function (s) {
 
   return answer;
 };
+Number.MAX_SAFE_INTEGER
