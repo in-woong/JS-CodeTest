@@ -114,3 +114,6 @@
   - [getAncestor](https://velog.io/@inwoong100/leetcode-2192.-All-Ancestors-of-a-Node-in-a-Directed-Acyclic-Graph)
 
 - [7.23풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.23)
+
+- [7.24풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.24)
+  - [stoneGame VII]()
