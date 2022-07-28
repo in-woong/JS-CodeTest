@@ -20,3 +20,6 @@ var capitalizeTitle = function (title) {
   }
   return array.join(' ');
 };
+
+//Runtime: 134 ms, faster than 5.60% of JavaScript online submissions for Capitalize the Title.
+//Memory Usage: 45.9 MB, less than 6.00% of JavaScript online submissions for Capitalize the Title.
