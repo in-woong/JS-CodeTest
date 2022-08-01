@@ -116,4 +116,13 @@
 - [7.23풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.23)
 
 - [7.24풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.24)
+
   - [stoneGame VII]()
+
+- [7.25풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.25)
+
+- [7.26풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.26)
+
+- [7.28풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.28)
+
+- [8.1풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.1)
