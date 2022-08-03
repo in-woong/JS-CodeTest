@@ -126,3 +126,5 @@
 - [7.28풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/July/7.28)
 
 - [8.1풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.1)
+
+- [8.2풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.2)
