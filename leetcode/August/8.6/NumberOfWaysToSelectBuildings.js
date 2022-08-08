@@ -26,41 +26,41 @@
 //   return co;
 // };
 
-// var numberOfWays = function(s) {
-//     const n = s.length;
+var numberOfWays = function(s) {
+    const n = s.length;
 
-//     let validWays = 0;
+    let validWays = 0;
 
-//     let postFixOnes = 0;
-//     let postFixZeros = 0;
+    let postFixOnes = 0;
+    let postFixZeros = 0;
 
-//     for (let i = 0; i < n; ++i) {
-//         const bit = s.charAt(i);
+    for (let i = 0; i < n; ++i) {
+        const bit = s.charAt(i);
 
-//         if (bit === "1") ++postFixOnes;
-//         else ++postFixZeros;
-//     }
+        if (bit === "1") ++postFixOnes;
+        else ++postFixZeros;
+    }
 
-//     let prefixOnes = 0;
-//     let prefixZeros = 0;
+    let prefixOnes = 0;
+    let prefixZeros = 0;
 
-//     for (let i = 0; i < n; ++i) {
-//         const bit = s.charAt(i);
+    for (let i = 0; i < n; ++i) {
+        const bit = s.charAt(i);
 
-//         if (bit === "1") {
-//             --postFixOnes;
-//             validWays += (prefixZeros * postFixZeros);
-//             ++prefixOnes;
-//         }
-//         else {
-//             --postFixZeros;
-//             validWays += (prefixOnes * postFixOnes);
-//             ++prefixZeros;
-//         }
-//     }
+        if (bit === "1") {
+            --postFixOnes;
+            validWays += (prefixZeros * postFixZeros);
+            ++prefixOnes;
+        }
+        else {
+            --postFixZeros;
+            validWays += (prefixOnes * postFixOnes);
+            ++prefixZeros;
+        }
+    }
 
-//     return validWays;
-// };
+    return validWays;
+};
 
 var numberOfWays = function (s) {
   const n = s.length;

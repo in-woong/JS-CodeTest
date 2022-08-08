@@ -18,8 +18,7 @@ var minDifference = function (nums, queries) {
       ++prefixSums[i][nums[i - 1]];
     }
   }
-
-  console.log(prefixSums);
+  //최대 길이가 101이기 때문에, sliding Windows처럼 앞에서부터 첫번째, 두번째, 세번째의 원소들을 다 짤라서 prefixSums에 넣어놓았다.
 
   const res = [];
 
@@ -28,13 +27,14 @@ var minDifference = function (nums, queries) {
 
     const start = prefixSums[left];
     const end = prefixSums[right + 1];
-
+    console.log('start', start);
+    console.log('end', end);
     const intersect = new Array(101).fill(0);
 
     for (let i = 0; i < 101; ++i) {
       intersect[i] = end[i] - start[i];
     }
-
+    console.log('inter', intersect);
     let last = -1;
     let minDiff = MAX;
 
@@ -42,8 +42,11 @@ var minDifference = function (nums, queries) {
       if (intersect[i] === 0) continue;
 
       if (last == -1) {
+        //첫 원소를 구분
         last = i;
       } else {
+        //원소가 몇인지 구분
+        //어짜피 가장 옆에있는 값끼리 차를 구해야지, 안그러면
         const diff = i - last;
 
         minDiff = Math.min(minDiff, diff);
