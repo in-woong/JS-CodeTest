@@ -130,4 +130,12 @@
 - [8.2풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.2)
 
 - [8.4풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.4)
-  - [ContinguousArray]()
+
+  - [ContinguousArray](https://velog.io/@inwoong100/leetcode525.-Contiguous-Array)
+
+- [8.5풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.5)
+
+  - [MinimumAbsoluteDiffereceQueries](https://velog.io/@inwoong100/leetcode1906.-Minimum-Absolute-Difference-Queries)
+
+- [8.6풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.6)
+  - [NumberOfWaysToSelectBuildings](https://velog.io/@inwoong100/leetcode2222.-Number-of-Ways-to-Select-Buildings)
