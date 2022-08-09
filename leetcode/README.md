@@ -138,4 +138,10 @@
   - [MinimumAbsoluteDiffereceQueries](https://velog.io/@inwoong100/leetcode1906.-Minimum-Absolute-Difference-Queries)
 
 - [8.6풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.6)
+
   - [NumberOfWaysToSelectBuildings](https://velog.io/@inwoong100/leetcode2222.-Number-of-Ways-to-Select-Buildings)
+
+- [8.8풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.8)
+
+- [8.9풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.9)
+  - [Minimum Absolute Sum Difference]()
