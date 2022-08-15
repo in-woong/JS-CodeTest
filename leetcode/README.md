@@ -144,4 +144,13 @@
 - [8.8풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.8)
 
 - [8.9풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.9)
-  - [Minimum Absolute Sum Difference]()
+
+  - [Minimum Absolute Sum Difference](https://velog.io/@inwoong100/leetcode1818.-Minimum-Absolute-Sum-Difference)
+
+- [8.11풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.11)
+
+- [8.12풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.12)
+
+- [8.13풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.13)
+
+- [8.14풀이](https://github.com/in-woong/JS-CodeTest/tree/main/leetcode/August/8.14)
