@@ -64,6 +64,7 @@ trie.insert('can');
 trie.insert('cat');
 trie.insert('cd');
 trie.insert('dog');
+console.log(trie);
 console.log(trie.root.children['b']);
 
 console.log(trie.search('bear'));
